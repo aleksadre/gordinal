@@ -9,9 +9,15 @@ G = 1000000000
 
 T = G * 1000
 
-def togordinal(x):
+def togo(x):
     if x == 20:
-        retrun 'ოცი'
+        return 'ოცი'
+    elif x == 40:
+        return 'ორმოცი'
+    elif x == 60:
+        return 'სამოცი'
+    elif x == 80:
+        return 'ოთხმოცი'
     elif x == 100:
         return 'ასი'
     elif x == K:
