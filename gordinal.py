@@ -9,7 +9,7 @@ G = 1000000000
 
 T = G * 1000
 
-def togo(x):
+def togordinal(x):
     if x == 20:
         return 'ოცი'
     elif x == 40:
